@@ -32,6 +32,7 @@ function demKyTu(chuoi: string, kyTu: string): number {
 }
 console.log(demKyTu("hello", "l"));
 console.log(demKyTu("nguyenduckien", "k"));
+
 // so nguyen to
 function laSoNguyenTo(n: number): boolean {
     if (n < 2) {
