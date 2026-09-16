@@ -18,4 +18,4 @@ let listProducts: Product[] = [
     { name: 'Mũ', price: 5, sale: true, rate: Rate.low},
     { name: 'Túi xách', price: 3, sale: false, rate: Rate.medium}
 ];
-
+console.log(listProducts);
