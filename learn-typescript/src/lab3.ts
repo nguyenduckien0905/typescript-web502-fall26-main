@@ -51,3 +51,20 @@ const products2: Product[] = [
 ];
 const products = mergeProducts(products1, products2);
 printProducts(products);
+
+// default params
+const sayHelloUser =(user :string|number="kien")=>{
+    return user;
+    
+};
+console.log(sayHelloUser());
+console.log(sayHelloUser("dubai"));
+console.log(sayHelloUser(8386));
+
+//option params
+const sayHelloPerson =(user?:string)=>{
+    return user;
+};
+console.log(sayHelloPerson());
+
+
